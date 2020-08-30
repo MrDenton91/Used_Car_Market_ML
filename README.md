@@ -16,7 +16,7 @@ Each datapoint represents a unique car being sold in the U.S. Because of scaling
 The general Idea is to build a model that returns a price for car given inputed feature information. Data was test on a few different type of machine learning models. Random Forest Regressor as well as Gradient Boosting preformed around the same RMSE when compared to the baseline RMSE (average).
 
 ### Output
-The output of the machine learning model is simple, prices can range from 1.00 - 100,000,000.00
+The output of the machine learning model is simple, prices can range from $1.00 - $100,000,000.00
 
 ### Features
 * Year
@@ -26,4 +26,3 @@ The output of the machine learning model is simple, prices can range from 1.00 -
 * City
 * State
 * Body Style
-### Feature Importance:
