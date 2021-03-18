@@ -3,7 +3,7 @@
 ## Abstract
 Cars.com (Cars) has a huge selection of user and dealrship submitted cars for sale, this as well as it's ease of scrapping made it the ideal candidit for data collection.
 Goal of this Machine Learning Project is simply:
-* Train a model to predict the price of a car.
+* Train a model to predict the price of a used car.
 
 ## Results
 * a number of models predicted the price of car pretty well on unseen data compared to the average. Random Forest Regressor preformed the best with RMSE of $9,647.56 compared the RMSE of average $17,256.50
@@ -26,3 +26,6 @@ The output of the machine learning model is simple, prices can range from $1,000
 * City
 * State
 * Body Style
+
+### Improvements
+* need to write a seperate program that would gather all the specifics of each car on the market. This would need to added to a home data set with with I can add more feature at a later time.
